@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--importazione bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--font awesome per icone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--importazione stile personale-->
+    <link rel="stylesheet" href="style.css">
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IE:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>situs</title>
+
+</head>
+
+<body>
+
+
+    <!-- creazione della barra in alto navbar, colore scuro, fissa in alto-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="logos.jpg" alt="" class="rounded-circle m-2">
+            <span class="text-light">Sophie Jewerly</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#story">Chi Siamo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servizi">Servizi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contatti">Contatti</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+    <section class="hero d-flex align-items-center text-center justify-content-center"> <!--HERO-->
+
+        <div class="container">
+            <h1 class="display-2 text-light">Benvenuti da Sophie Jewerly</h1>
+        </div>
+    </section>
+
+
+    <section id="story" class="story py-5 bg-dark hero3"> <!--HERO-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="circle-img mx-auto">
+                        <img src="fid.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <div class="col-md-8">
+                    <h3 class="text-light">Storia</h3>
+                    <p class="text-light">Da oltre 50 anni, trasformiamo le promesse più pure in simboli tangibili di
+                        eccellenza. La nostra boutique nasce dal desiderio di celebrare i momenti irripetibili della
+                        vita attraverso una selezione esclusiva di soli anelli d'alta gamma. Dalla luce intramontabile
+                        del solitario alla promessa eterna delle nostre fedi, ogni pezzo che offriamo è il risultato di
+                        una ricerca rigorosa della perfezione, pensato per chi non accetta compromessi quando si parla
+                        d'amore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="servizi" class="servizi py-5 bg-dark">
+        <div class="container ">
+            <div class="text-center">
+                <h2 class="display-3 text-light">I Nostri servizi</h2>
+                <p class="text-light">che offriamo ai nostri clienti</p>
+            </div>
+            <div class="row d-flex">
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="fedi.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Fedi Nuziali</h5>
+                            <p>Simbolo eterno di un legame unico: scopri le nostre fedi nuziali.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 ">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="fids.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Promessa Di Matrimonio</h5>
+                            <p>Dal design raffinato, per celebrare la vostra promessa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="trilogy.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Trilogy</h5>
+                            <p>l trilogy: tre diamanti che raccontano passato, presente e futuro del vostro amore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="soli.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Solitario</h5>
+                            <p>Il solitario: un diamante che racchiude tutta la luce del vostro amore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section id="Contatti" class="contatti py-5 bg-dark hero2">
+        <div class="container">
+            <div class="text-center">
+                <h4 class=" text-light">
+                    Per informazioni sui nostri gioielli o richieste personalizzate,
+                    compila il form qui sotto e ti ricontatteremo al più presto.
+                </h4>
+            </div>
+
+            <div class="container mt-4">
+                <form class="row g-3 text-light">
+
+                    <div class="col-md-6">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Inserisci il tuo nome">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="cognome" class="form-label">Cognome</label>
+                        <input type="text" class="form-control" id="cognome" placeholder="Inserisci il tuo cognome">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="nome@example.com">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="messaggio" class="form-label">Messaggio</label>
+                        <textarea class="form-control" id="messaggio" rows="4"
+                            placeholder="Scrivi qui la tua richiesta"></textarea>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-light px-4">Invia</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="container mt-5 text-light">
+
+                <h3 class="mb-3">Contatti del Negozio</h3>
+
+                <p><i class="fa-solid fa-location-dot me-2"></i>
+                    Via delle Gemme 42, 80125 Napoli (NA)
+                </p>
+
+                <p><i class="fa-solid fa-phone me-2"></i>
+                    +39 081 765 4321
+                </p>
+
+                <p><i class="fa-solid fa-envelope me-2"></i>
+                    info@sophiejewelry.it
+                </p>
+
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
