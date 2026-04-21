@@ -1,64 +1,83 @@
-# 💍 Sophie Jewelry – Sito Web
+💍 Sophie Jewelry – Sito Web Ufficiale
+Questo repository contiene il sito web Sophie Jewelry, una boutique digitale dedicata ai gioielli d’alta gamma.
+Il progetto presenta un design elegante, luminoso e completamente responsive, realizzato con Bootstrap 5, CSS personalizzato e un branding raffinato basato sul monogramma SJ.
 
-Questo repository contiene il sito web **Sophie Jewelry**, una boutique digitale dedicata ai gioielli d’alta gamma.  
-Il progetto presenta un design elegante, moderno e completamente responsive, realizzato con **Bootstrap 5** e stili personalizzati in CSS.
+✨ Funzionalità principali
+🏠 Hero Section
+Sezione introduttiva a schermo intero
 
-## ✨ Funzionalità principali
+Logo SJ in versione watermark come sfondo
+Titolo elegante con font Playfair Display
+Pulsante “Scopri le Collezioni”
 
-### 🏠 Hero Section
-Una sezione introduttiva a schermo intero con immagine di sfondo e titolo centrale, per un impatto visivo immediato.
+📖 Chi Siamo
+Sezione dedicata alla storia della boutique
 
-### 📖 Chi Siamo
-Una sezione dedicata alla storia della boutique, con immagine circolare e testo descrittivo.
+Immagine circolare
+Testo descrittivo
+Sfondo con logo SJ integrato tramite CSS
 
-### 💎 Servizi / Gallery
+💎 Collezioni
 Una griglia di card che presenta le principali categorie di gioielli:
-- Fedi nuziali  
-- Anelli di promessa  
-- Trilogy  
-- Solitari  
 
+Anelli
+Bracciali
+Collane
 Ogni card include immagine, titolo e descrizione.
 
-### 📬 Contatti
-Un form semplice e intuitivo per richiedere informazioni, più una sezione con:
-- indirizzo  
-- telefono  
-- email  
+🖼️ Gallery
+Carosello Bootstrap con immagini a tutta larghezza
 
-## 🛠️ Tecnologie utilizzate
+Navigazione tramite frecce laterali
 
-- **HTML5**
-- **CSS3** (stile personalizzato)
-- **Bootstrap 5.3**
-- **Font Awesome 7**
-- **Google Fonts (Playwrite IE)**
+📬 Contatti
+Form completo (nome, cognome, email, messaggio)
 
-## 🎨 Stile e grafica
+Sezione con:
+indirizzo
+telefono
+email
 
+🛠️ Tecnologie utilizzate
+
+HTML5
+CSS3 (stile personalizzato)
+Bootstrap 5.3
+Font Awesome 7
+Google Fonts (Playfair Display, Roboto)
+
+🎨 Stile e grafica
 Il sito utilizza:
-- immagini a schermo intero per le sezioni principali (`hero`, `hero2`, `hero3`)
-- palette scura elegante (`bg-dark`)
-- font personalizzato per un look raffinato
-- immagini circolari per la sezione “Storia”
-- layout responsive grazie a Bootstrap
-- 
-## 📁 Struttura del progetto
 
-- `sito.html` – Pagina principale  
-- `style.css` – Foglio di stile personalizzato  
-- Immagini:
-  - `sfondo.webp`
-  - `ddd.jpg`
-  - `oro.jpg`
-  - `logos.jpg`
-  - `fid.jpg`
-  - `fedi.jpg`
-  - `fids.jpg`
-  - `soli.jpg`
-  - `trilogy.jpg`
+Logo SJ in oro come elemento principale del brand
+Watermark del logo come sfondo in più sezioni
+Palette chiara ed elegante (bianco + oro)
+Font serif per un look raffinato
+Layout completamente responsive
+Immagini ottimizzate per la visualizzazione su desktop e mobile
 
-## 👩‍💻 Autrice
+📁 Struttura del progetto
+Codice
+/sito_gioielli_Sophie
+│── index.html
+│── style.css
+│── /img (tutte le immagini del sito)
+│── README.md
 
-**Giulia Napoli**  
-Progetto realizzato per esercitazione personale nel web design e sviluppo front-end.
+
+🚧 Lavori in corso
+
+Il progetto è funzionante, ma sono previste ulteriori migliorie:
+Ottimizzazione degli sfondi con logo nelle sezioni secondarie
+Miglioramento della leggibilità del watermark
+Aggiunta animazioni e micro‑interazioni
+Ottimizzazione SEO
+Pubblicazione tramite GitHub Pages
+Aggiunta favicon e meta tag social
+Eventuale pagina “Prodotti” con schede dettagliate
+
+
+👩‍💻 Autrice
+
+Giulia Napoli  
+Progetto realizzato come esercitazione personale di web design e sviluppo front‑end, con attenzione al branding e all’estetica luxury
