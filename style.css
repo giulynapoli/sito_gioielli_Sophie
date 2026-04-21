@@ -1,78 +1,201 @@
+/* RESET BASE */
 * {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
-    font-family: "Playwrite IE";
-
+    box-sizing: border-box;
 }
 
+/* FIX SCROLL NAVBAR (ancore: gallery, collezioni, ecc.) */
+html {
+    scroll-padding-top: 90px;
+}
+
+/* FONT GLOBALI */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-name,
+.navbar .nav-link {
+    font-family: "Playfair Display", serif !important;
+}
+
+/* SEZIONI GENERALI */
 section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
- 
-
-
-
-.story{
-width: 100%;
-height: 100vh;
-background-color: #212529;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
-.hero {
-    width: 100%;
-    height: 100vh;
-    background: url(sfondo.webp) center/cover no-repeat;
-    display: flex;
-   
+/* NAVBAR */
+.navbar {
+    background-color: #FAF7F2 !important;
 }
 
-li {
-
-    font-size: 14px;
+.navbar .nav-link {
+    font-size: 17px;
+    color: #222 !important;
+    margin-left: 15px;
 }
 
-
-.navbar-brand span {
-    font-size: 18px;
+.navbar .nav-link:hover {
+    color: #C9A86A !important;
 }
 
-.navbar-brand img {
-    height: 30px;
+.brand-name {
+    font-size: 22px;
+    color: #222;
+}
+
+.logo-nav {
+    height: 45px;
     width: auto;
 }
 
+.hero-luxury {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #FAF7F2;
+}
+
+/* immagine logo come sfondo */
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('logosfondo.png') center/contain no-repeat;
+  opacity: 0.20; /* regola la trasparenza */
+  z-index: 0;
+}
+/* SFONDO LOGO UNIVERSALE PER TUTTE LE SEZIONI */
+.section-logo-bg {
+  position: relative;
+  background: url('logosfondo.png') center/contain no-repeat;
+  background-attachment: fixed; /* effetto elegante */
+  opacity: 1;
+}
+
+/* overlay leggero per rendere leggibile il testo */
+.section-logo-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.75); /* regola la trasparenza */
+  z-index: 0;
+}
+
+/* contenuto sopra */
+.section-logo-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* testo sopra */
+.hero-luxury .container {
+  position: relative;
+  z-index: 1;
+}
+
+.title-luxury {
+  font-family: "Playfair Display";
+  color: #222;
+}
+
+.btn-luxury {
+  background-color: #C9A86A;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-luxury:hover {
+  background-color: #b08f58;
+  transform: scale(1.05);
+}
+
+/* SEZIONE STORIA */
+.story {
+    position: relative;
+}
+
+.story.section-logo-bg {
+    background: url('logosfondo.png') center/contain no-repeat;
+    background-attachment: fixed;
+}
+
+.story.section-logo-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.75);
+    z-index: 0;
+}
+
+.story.section-logo-bg > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* IMMAGINE TONDA */
 .circle-img {
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    border: 2px grey;
     overflow: hidden;
-
 }
 
 .circle-img img {
-
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
-.hero2 {
-    width: 100%;
-    height: 100vh;
-    background: url(ddd.jpg) center/cover no-repeat;
-    display: flex;
-   
+/* COLLEZIONI */
+#collezioni {
+    background-color: #FAF7F2;
 }
 
-.hero3 {
+.card-img-top {
+    height: 260px;
+    object-fit: cover;
+}
+
+/* CAROSELLO GALLERY */
+.full-carousel-img {
     width: 100%;
-    height: 100vh;
-    background: url(oro.jpg) center/cover no-repeat;
-    display: flex;
-   
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* CONTATTI CARD */
+.contatti {
+    background-color: #111;
+}
+
+.contatti-card {
+    max-width: 900px;
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* TESTI SECONDARI */
+.text-dark-50 {
+    color: #555;
 }
