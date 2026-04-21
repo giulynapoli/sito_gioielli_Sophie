@@ -62,4 +62,3 @@ Il sito utilizza:
 
 **Giulia Napoli**  
 Progetto realizzato per esercitazione personale nel web design e sviluppo front-end.
-Se vuoi, posso aiutarti a pubblicare il sito con **GitHub Pages**, così ottieni un link pubblico da condividere.
